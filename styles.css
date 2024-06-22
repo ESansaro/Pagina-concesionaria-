@@ -1,0 +1,141 @@
+h1{
+    color:rgb(5, 101, 245);
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.parrafo2{
+    color:rgb(16, 222, 230);
+    font-size: 20px;
+    font-size: italic;
+}
+
+.parrafo1{
+    color:rgba(243, 116, 11, 0.801);
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: rgb(178, 216, 223);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 5px solid green;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+nav li{
+    display: inline;
+    background-color: blue;
+}
+
+nav li :hover{
+    color: white;
+    font-size: 5px;
+    text-decoration: underline;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedorlimite{
+    background-color: blue;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid red;
+    text-align: center;
+}
+
+.contenedorlimite2{
+    background-color: blue;
+    padding: 10px;
+
+}
+
+.padre{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section{
+    margin: 20px
+}
+.card img{
+    width: 100%;
+}
+
+header{
+    background-color: purple;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+@media screen and (max-widht:550px) {}
+    header{
+        flex-direction:column;
+        align-items:start; 
+        justify-content:start;
+    }
+    nav{
+        left: 10px;
+        top: 70px;
+    }
+    .card{
+        width: 200px ;
+    }
+                                         
+    .parent {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: grey;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 3; 
+    }
+    
+    .div1 img{
+        width: 100%;
+    }
+    
+    
+    .div2 { 
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    
+    .div2 img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .div3 { 
+        grid-area: 2 / 2 / 3 / 3; 
+    }
+    
+    .div3 img{
+        width: 100%;
+        height: 100%;
+    }
